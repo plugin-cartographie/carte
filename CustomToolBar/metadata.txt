@@ -1,0 +1,69 @@
+# This file contains metadata for your plugin. Beginning
+# with version 1.8 this is the preferred way to supply information about a
+# plugin. The current method of embedding metadata in __init__.py will
+# be supported until version 2.0
+
+# This file should be included when you package your plugin.
+
+# Mandatory items:
+
+
+[general]
+name=Customize ToolBars
+qgisMinimumVersion=2.2
+description=Create customs Toolbars for Qgis.
+about=This plugin allows to create personalized tools, with the buttons the user desires. It is only necessary dragging from the list on the left and dropping in the list on the right, the tools that the user desires to add to any of the previously created toolbars.
+version=0.8
+author=Francisco Raga
+email=franka1986@gmail.com
+
+# end of mandatory metadata
+
+# Optional items:
+
+# Uncomment the following line and add your changelog entries:
+changelog=    
+	** General **
+	0.8:
+		- Fixed error on a GNU/Linux machine (About button).
+		- Fixed error restoring toolbars).
+	0.7:
+		- Fixed error on a GNU/Linux machine (issue #1).
+	0.6:
+		- Support for all QMenu actions(Control activate plugins).
+		- Internal code changes.
+	0.5:
+		- Add support for MAC,linux platforms (tickets #13321,#13324).
+		- Minor changes.
+	0.4:
+		- Add QMenu actions in plugin(for example MMQGIS actions).
+		- Minor Changes.
+	0.3:
+	    - Add search actions.
+	    - Minor changes.
+	0.2:
+	    - Obtain missing Qgis Actions.
+    	- Add Processing Toolbox actions.
+	0.1:
+	 	- Added new buttons (Expand all and Collapse all).
+	    - Added missing data in "metadata.txt".(ticket #12925 closed)
+	    - Restored visibility tools when change/save toolbars.
+	    - Save expand state and restored in Qgis toolbars list.
+	    - Minor changes.
+	0.0:
+		-Start of plugin 
+ 
+# tags are comma separated with spaces allowed
+tags=productivity,actions,menu,tool,toolbars,style,custom,create,work flow,configuration,processing
+
+homepage=http://hub.qgis.org/projects/rt6avc2ia
+tracker=http://hub.qgis.org/projects/rt6avc2ia/issues
+repository=https://github.com/All4Gis/CustomToolBar
+icon=images/icon.png
+
+# experimental flag
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version
+deprecated=False
+
